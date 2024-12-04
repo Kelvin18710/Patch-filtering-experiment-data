@@ -1,0 +1,30 @@
+--- /src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ /src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -362,8 +362,7 @@
+ 
+                 // evaluate the function at x + p and calculate its norm
+                 updateResidualsAndCost();
+-                current = new VectorialPointValuePair(point, objective);
+-
++               
+                 // compute the scaled actual reduction
+                 double actRed = -1.0;
+                 if (0.1 * cost < previousCost) {
+@@ -417,8 +416,8 @@
+                         double xK = diag[k] * point[k];
+                         xNorm    += xK * xK;
+                     }
++
+                     xNorm = Math.sqrt(xNorm);
+-
+                     // tests for convergence.
+                     // we use the vectorial convergence checker
+                 } else {
+@@ -432,6 +431,7 @@
+                     residuals = oldRes;
+                     oldRes    = tmpVec;
+                 }
++                current = new VectorialPointValuePair(point, objective);
+                 if (checker==null) {
+                 	if (((Math.abs(actRed) <= costRelativeTolerance) &&
+                         (preRed <= costRelativeTolerance) &&

@@ -1,0 +1,90 @@
+JUnit version 4.13.2
+19:53:02.751 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency_ESTest
+19:53:02.752 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency_ESTest'.
+19:53:02.823 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency_ESTest_scaffolding
+19:53:02.823 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency_ESTest_scaffolding'.
+19:53:02.825 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency_ESTest_scaffolding
+19:53:02.825 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency_ESTest
+19:53:02.966 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+19:53:02.966 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+19:53:02.966 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+19:53:02.966 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+19:53:02.966 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+19:53:02.966 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+19:53:02.983 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency$NaturalComparator
+19:53:02.983 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency$NaturalComparator'.
+19:53:02.987 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency$NaturalComparator
+19:53:03.064 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math/stat/Frequency$NaturalComparator
+19:53:03.065 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency$NaturalComparator
+19:53:03.065 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency
+19:53:03.065 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency'.
+19:53:03.066 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency
+19:53:03.070 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math/stat/Frequency
+19:53:03.070 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency
+.19:53:03.307 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency$1
+19:53:03.307 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency$1'.
+19:53:03.307 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency$1
+19:53:03.308 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency$1
+E...........E......E.E.................E.........E..E....................E...............E...........E...E......E.E......E....
+Time: 0.671
+There were 14 failures:
+1) test_0077(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0077(Frequency_ESTest.java:822)
+2) test_0071(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0071(Frequency_ESTest.java:755)
+3) test_0067(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0067(Frequency_ESTest.java:716)
+4) test_0100(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0100(Frequency_ESTest.java:1103)
+5) test_0057(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0057(Frequency_ESTest.java:624)
+6) test_0043(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0043(Frequency_ESTest.java:513)
+7) test_0045(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0045(Frequency_ESTest.java:530)
+8) test_0023(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0023(Frequency_ESTest.java:267)
+9) test_0097(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0097(Frequency_ESTest.java:1079)
+10) test_0016(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0016(Frequency_ESTest.java:177)
+11) test_0087(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0087(Frequency_ESTest.java:970)
+12) test_0086(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0086(Frequency_ESTest.java:959)
+13) test_0085(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0085(Frequency_ESTest.java:948)
+14) test_0009(org.apache.commons.math.stat.Frequency_ESTest)
+java.lang.ClassCastException: java.lang.Object cannot be cast to java.lang.Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:110)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0009(Frequency_ESTest.java:112)
+
+FAILURES!!!
+Tests run: 113,  Failures: 14
+

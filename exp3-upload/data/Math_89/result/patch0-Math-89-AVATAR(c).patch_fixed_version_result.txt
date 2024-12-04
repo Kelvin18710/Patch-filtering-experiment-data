@@ -1,0 +1,134 @@
+JUnit version 4.13.2
+19:52:55.183 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency_ESTest
+19:52:55.184 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency_ESTest'.
+19:52:55.253 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency_ESTest_scaffolding
+19:52:55.253 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency_ESTest_scaffolding'.
+19:52:55.255 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency_ESTest_scaffolding
+19:52:55.255 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency_ESTest
+19:52:55.421 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+19:52:55.421 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+19:52:55.421 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+19:52:55.421 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+19:52:55.421 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+19:52:55.421 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+19:52:55.438 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency$NaturalComparator
+19:52:55.439 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency$NaturalComparator'.
+19:52:55.443 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency$NaturalComparator
+19:52:55.527 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math/stat/Frequency$NaturalComparator
+19:52:55.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency$NaturalComparator
+19:52:55.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency
+19:52:55.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency'.
+19:52:55.529 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency
+19:52:55.534 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math/stat/Frequency
+19:52:55.535 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency
+.19:52:55.761 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency$1
+19:52:55.761 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency$1'.
+19:52:55.761 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency$1
+19:52:55.762 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency$1
+..E.......E.E.E.E.....E.E..E..E.............E.........E..E.......E.E...E.E.....E..................E.....E......E...E.E.....E.E......E....
+Time: 0.683
+There were 25 failures:
+1) test_0076(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0076(Frequency_ESTest.java:805)
+2) test_0075(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0075(Frequency_ESTest.java:795)
+3) test_0074(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0074(Frequency_ESTest.java:785)
+4) test_0071(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0071(Frequency_ESTest.java:755)
+5) test_0070(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0070(Frequency_ESTest.java:744)
+6) test_0067(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0067(Frequency_ESTest.java:716)
+7) test_0100(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0100(Frequency_ESTest.java:1103)
+8) test_0061(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0061(Frequency_ESTest.java:660)
+9) test_0063(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0063(Frequency_ESTest.java:678)
+10) test_0057(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0057(Frequency_ESTest.java:624)
+11) test_0043(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0043(Frequency_ESTest.java:513)
+12) test_0045(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0045(Frequency_ESTest.java:530)
+13) test_0033(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0033(Frequency_ESTest.java:409)
+14) test_0032(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0032(Frequency_ESTest.java:397)
+15) test_0031(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0031(Frequency_ESTest.java:386)
+16) test_0030(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0030(Frequency_ESTest.java:375)
+17) test_0022(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0022(Frequency_ESTest.java:250)
+18) test_0097(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0097(Frequency_ESTest.java:1079)
+19) test_0092(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0092(Frequency_ESTest.java:1028)
+20) test_0016(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0016(Frequency_ESTest.java:177)
+21) test_0087(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0087(Frequency_ESTest.java:970)
+22) test_0002(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0002(Frequency_ESTest.java:52)
+23) test_0086(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0086(Frequency_ESTest.java:959)
+24) test_0085(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0085(Frequency_ESTest.java:948)
+25) test_0009(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Object must implement Comparable
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0009(Frequency_ESTest.java:112)
+
+FAILURES!!!
+Tests run: 113,  Failures: 25
+
