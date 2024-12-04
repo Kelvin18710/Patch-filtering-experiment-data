@@ -2,6 +2,7 @@
 
 
 ## 文件结构
+<pre>
 Patch-filtering-experiment-data/
 ├── exp1/
 │   ├── data/
@@ -21,6 +22,10 @@ Patch-filtering-experiment-data/
 │   ├── data/                         # 与 exp1 结构相同
 │   └── result/
 └── README.md                          # 本说明文件
+</pre>
+
+
+
 
 
 
