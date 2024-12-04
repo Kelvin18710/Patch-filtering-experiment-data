@@ -15,10 +15,12 @@ Patch-filtering-experiment-data/
 │   │       └── result/
 │   └── result/                       # 实验分析表与分析结果
 │       ├── result.xlsx               # 各版本通过率汇总表
-│       └── *.txt                     # 
+│       └── *.txt                     # 分析结果文本
 │       └── *.png                     # 分析结果图
 ├── exp2/
 │   ├── data/                         # 与 exp1 结构相同
 │   └── result/
 └── README.md                          # 本说明文件
+
+
 
