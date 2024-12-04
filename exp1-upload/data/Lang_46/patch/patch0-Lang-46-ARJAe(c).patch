@@ -1,0 +1,16 @@
+--- /src/java/org/apache/commons/lang/StringEscapeUtils.java
++++ /src/java/org/apache/commons/lang/StringEscapeUtils.java
+@@ -241,8 +241,13 @@
+                         out.write('\\');
+                         break;
+                     case '/' :
++                    ;
++					{
++						if (escapeSingleQuote) {
+                             out.write('\\');
++                        }
+                         out.write('/');
++                    }
+                         break;
+                     default :
+                         out.write(ch);
