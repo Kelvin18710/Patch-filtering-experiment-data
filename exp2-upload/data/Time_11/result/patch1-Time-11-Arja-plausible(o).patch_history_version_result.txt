@@ -1,0 +1,623 @@
+JUnit version 4.13.2
+18:01:40.948 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder_ESTest
+18:01:40.950 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder_ESTest'.
+18:01:41.028 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder_ESTest_scaffolding
+18:01:41.028 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder_ESTest_scaffolding'.
+18:01:41.030 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder_ESTest_scaffolding
+18:01:41.030 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder_ESTest
+18:01:41.178 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:01:41.178 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:01:41.178 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:01:41.179 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:01:41.179 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+18:01:41.179 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:01:41.201 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeZone
+18:01:41.202 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeZone'.
+18:01:41.207 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeZone
+18:01:41.313 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/DateTimeZone
+18:01:41.315 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.joda.time, 1716381231
+18:01:41.315 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeZone
+18:01:41.316 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.Provider
+18:01:41.316 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.Provider'.
+18:01:41.316 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.Provider
+18:01:41.316 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.FixedDateTimeZone
+18:01:41.317 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.FixedDateTimeZone'.
+18:01:41.317 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/FixedDateTimeZone
+18:01:41.318 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/FixedDateTimeZone
+18:01:41.318 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.FixedDateTimeZone
+18:01:41.319 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.Chronology
+18:01:41.319 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.Chronology'.
+18:01:41.319 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/Chronology
+18:01:41.320 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/Chronology
+18:01:41.321 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.Chronology
+18:01:41.321 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeZone$1
+18:01:41.321 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeZone$1'.
+18:01:41.321 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeZone$1
+18:01:41.321 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BaseChronology
+18:01:41.321 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BaseChronology'.
+18:01:41.322 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BaseChronology
+18:01:41.324 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BaseChronology
+18:01:41.324 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.joda.time.chrono, -369619134
+18:01:41.324 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BaseChronology
+18:01:41.324 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeZone$1
+18:01:41.324 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.JodaTimePermission
+18:01:41.325 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.JodaTimePermission'.
+18:01:41.325 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/JodaTimePermission
+18:01:41.325 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/JodaTimePermission
+18:01:41.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.JodaTimePermission
+18:01:41.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.NameProvider
+18:01:41.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.NameProvider'.
+18:01:41.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.NameProvider
+18:01:41.326 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadableInstant
+18:01:41.327 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadableInstant'.
+18:01:41.327 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadableInstant
+18:01:41.328 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.ZoneInfoProvider
+18:01:41.328 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.ZoneInfoProvider'.
+18:01:41.329 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/ZoneInfoProvider
+18:01:41.335 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/ZoneInfoProvider
+18:01:41.335 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.ZoneInfoProvider
+18:01:41.344 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DefaultNameProvider
+18:01:41.344 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DefaultNameProvider'.
+18:01:41.344 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DefaultNameProvider
+18:01:41.345 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DefaultNameProvider
+18:01:41.346 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DefaultNameProvider
+18:01:41.346 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+18:01:41.346 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder$RuleSet'.
+18:01:41.347 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder$RuleSet
+18:01:41.348 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/tz/DateTimeZoneBuilder$RuleSet
+18:01:41.348 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+18:01:41.348 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.ISOChronology
+18:01:41.348 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.ISOChronology'.
+18:01:41.348 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/ISOChronology
+18:01:41.349 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/chrono/ISOChronology
+18:01:41.350 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.AssembledChronology
+18:01:41.350 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.AssembledChronology'.
+18:01:41.350 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/AssembledChronology
+18:01:41.352 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/AssembledChronology
+18:01:41.352 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.AssembledChronology
+18:01:41.352 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.ISOChronology
+18:01:41.352 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeUtils
+18:01:41.352 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeUtils'.
+18:01:41.353 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeUtils
+18:01:41.362 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/DateTimeUtils
+18:01:41.362 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeUtils
+18:01:41.362 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeUtils$MillisProvider
+18:01:41.362 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeUtils$MillisProvider'.
+18:01:41.363 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeUtils$MillisProvider
+18:01:41.363 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadableInterval
+18:01:41.363 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadableInterval'.
+18:01:41.363 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadableInterval
+18:01:41.363 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeUtils$SystemMillisProvider
+18:01:41.363 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeUtils$SystemMillisProvider'.
+18:01:41.364 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeUtils$SystemMillisProvider
+18:01:41.364 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DateTimeUtils$SystemMillisProvider
+18:01:41.364 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeUtils$SystemMillisProvider
+18:01:41.364 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeField
+18:01:41.364 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeField'.
+18:01:41.364 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeField
+18:01:41.365 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DateTimeField
+18:01:41.365 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeField
+18:01:41.365 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.UnsupportedDateTimeField
+18:01:41.365 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.UnsupportedDateTimeField'.
+18:01:41.365 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/UnsupportedDateTimeField
+18:01:41.368 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/UnsupportedDateTimeField
+18:01:41.368 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field cCache
+18:01:41.368 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.joda.time.field, -1671703429
+18:01:41.368 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.UnsupportedDateTimeField
+18:01:41.368 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DurationField
+18:01:41.368 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DurationField'.
+18:01:41.368 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DurationField
+18:01:41.370 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DurationField
+18:01:41.370 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DurationField
+18:01:41.370 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.UnsupportedDurationField
+18:01:41.370 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.UnsupportedDurationField'.
+18:01:41.370 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/UnsupportedDurationField
+18:01:41.371 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/UnsupportedDurationField
+18:01:41.371 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field cCache
+18:01:41.371 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.UnsupportedDurationField
+18:01:41.371 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.IllegalFieldValueException
+18:01:41.371 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.IllegalFieldValueException'.
+18:01:41.372 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/IllegalFieldValueException
+18:01:41.373 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/IllegalFieldValueException
+18:01:41.374 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.IllegalFieldValueException
+18:01:41.374 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GregorianChronology
+18:01:41.374 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GregorianChronology'.
+18:01:41.375 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GregorianChronology
+18:01:41.376 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/chrono/GregorianChronology
+18:01:41.376 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicGJChronology
+18:01:41.376 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicGJChronology'.
+18:01:41.377 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicGJChronology
+18:01:41.377 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/chrono/BasicGJChronology
+18:01:41.377 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicChronology
+18:01:41.377 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicChronology'.
+18:01:41.378 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicChronology
+18:01:41.379 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/chrono/BasicChronology
+18:01:41.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicChronology
+18:01:41.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicGJChronology
+18:01:41.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GregorianChronology
+18:01:41.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.DividedDateTimeField
+18:01:41.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.DividedDateTimeField'.
+18:01:41.381 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/DividedDateTimeField
+18:01:41.382 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/DividedDateTimeField
+18:01:41.382 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.DecoratedDateTimeField
+18:01:41.382 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.DecoratedDateTimeField'.
+18:01:41.383 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/DecoratedDateTimeField
+18:01:41.384 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/DecoratedDateTimeField
+18:01:41.384 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.BaseDateTimeField
+18:01:41.384 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.BaseDateTimeField'.
+18:01:41.384 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/BaseDateTimeField
+18:01:41.386 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/BaseDateTimeField
+18:01:41.387 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.BaseDateTimeField
+18:01:41.387 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.DecoratedDateTimeField
+18:01:41.387 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.DividedDateTimeField
+18:01:41.387 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.RemainderDateTimeField
+18:01:41.387 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.RemainderDateTimeField'.
+18:01:41.387 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/RemainderDateTimeField
+18:01:41.388 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/RemainderDateTimeField
+18:01:41.388 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.RemainderDateTimeField
+18:01:41.388 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.ZonedChronology
+18:01:41.388 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.ZonedChronology'.
+18:01:41.388 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/ZonedChronology
+18:01:41.390 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/ZonedChronology
+18:01:41.390 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.ZonedChronology
+18:01:41.390 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.PreciseDurationField
+18:01:41.390 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.PreciseDurationField'.
+18:01:41.391 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/PreciseDurationField
+18:01:41.391 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/PreciseDurationField
+18:01:41.391 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.BaseDurationField
+18:01:41.391 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.BaseDurationField'.
+18:01:41.391 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/BaseDurationField
+18:01:41.392 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/BaseDurationField
+18:01:41.392 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.BaseDurationField
+18:01:41.392 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.PreciseDurationField
+18:01:41.393 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.PreciseDateTimeField
+18:01:41.393 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.PreciseDateTimeField'.
+18:01:41.393 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/PreciseDateTimeField
+18:01:41.394 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/PreciseDateTimeField
+18:01:41.394 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.PreciseDurationDateTimeField
+18:01:41.394 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.PreciseDurationDateTimeField'.
+18:01:41.394 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/PreciseDurationDateTimeField
+18:01:41.395 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/PreciseDurationDateTimeField
+18:01:41.395 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.PreciseDurationDateTimeField
+18:01:41.395 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.PreciseDateTimeField
+18:01:41.395 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.ZeroIsMaxDateTimeField
+18:01:41.395 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.ZeroIsMaxDateTimeField'.
+18:01:41.395 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/ZeroIsMaxDateTimeField
+18:01:41.397 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/ZeroIsMaxDateTimeField
+18:01:41.397 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.ZeroIsMaxDateTimeField
+18:01:41.397 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicChronology$HalfdayField
+18:01:41.397 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicChronology$HalfdayField'.
+18:01:41.397 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicChronology$HalfdayField
+18:01:41.397 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicChronology$HalfdayField
+18:01:41.397 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicChronology$HalfdayField
+18:01:41.398 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicYearDateTimeField
+18:01:41.398 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicYearDateTimeField'.
+18:01:41.398 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicYearDateTimeField
+18:01:41.398 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicYearDateTimeField
+18:01:41.398 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.ImpreciseDateTimeField
+18:01:41.399 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.ImpreciseDateTimeField'.
+18:01:41.399 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/ImpreciseDateTimeField
+18:01:41.399 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/ImpreciseDateTimeField
+18:01:41.399 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.ImpreciseDateTimeField
+18:01:41.399 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicYearDateTimeField
+18:01:41.400 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GJYearOfEraDateTimeField
+18:01:41.400 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GJYearOfEraDateTimeField'.
+18:01:41.400 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GJYearOfEraDateTimeField
+18:01:41.400 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/GJYearOfEraDateTimeField
+18:01:41.400 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GJYearOfEraDateTimeField
+18:01:41.401 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.OffsetDateTimeField
+18:01:41.401 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.OffsetDateTimeField'.
+18:01:41.401 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/OffsetDateTimeField
+18:01:41.412 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/OffsetDateTimeField
+18:01:41.412 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.OffsetDateTimeField
+18:01:41.412 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GJEraDateTimeField
+18:01:41.412 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GJEraDateTimeField'.
+18:01:41.412 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GJEraDateTimeField
+18:01:41.412 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/GJEraDateTimeField
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GJEraDateTimeField
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GJDayOfWeekDateTimeField
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GJDayOfWeekDateTimeField'.
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GJDayOfWeekDateTimeField
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/GJDayOfWeekDateTimeField
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GJDayOfWeekDateTimeField
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicDayOfMonthDateTimeField
+18:01:41.413 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicDayOfMonthDateTimeField'.
+18:01:41.414 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicDayOfMonthDateTimeField
+18:01:41.414 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicDayOfMonthDateTimeField
+18:01:41.414 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicDayOfMonthDateTimeField
+18:01:41.414 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicDayOfYearDateTimeField
+18:01:41.414 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicDayOfYearDateTimeField'.
+18:01:41.414 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicDayOfYearDateTimeField
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicDayOfYearDateTimeField
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicDayOfYearDateTimeField
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GJMonthOfYearDateTimeField
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GJMonthOfYearDateTimeField'.
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GJMonthOfYearDateTimeField
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/GJMonthOfYearDateTimeField
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicMonthOfYearDateTimeField
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicMonthOfYearDateTimeField'.
+18:01:41.415 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicMonthOfYearDateTimeField
+18:01:41.417 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicMonthOfYearDateTimeField
+18:01:41.417 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field MIN
+18:01:41.417 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicMonthOfYearDateTimeField
+18:01:41.417 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GJMonthOfYearDateTimeField
+18:01:41.417 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicWeekyearDateTimeField
+18:01:41.417 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicWeekyearDateTimeField'.
+18:01:41.418 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicWeekyearDateTimeField
+18:01:41.418 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicWeekyearDateTimeField
+18:01:41.418 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field WEEK_53
+18:01:41.418 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicWeekyearDateTimeField
+18:01:41.418 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField
+18:01:41.418 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField'.
+18:01:41.419 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField
+18:01:41.419 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField
+18:01:41.419 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField
+18:01:41.420 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.MillisDurationField
+18:01:41.420 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.MillisDurationField'.
+18:01:41.420 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/MillisDurationField
+18:01:41.421 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/field/MillisDurationField
+18:01:41.421 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.MillisDurationField
+18:01:41.421 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DurationFieldType
+18:01:41.421 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DurationFieldType'.
+18:01:41.422 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DurationFieldType
+18:01:41.422 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/DurationFieldType
+18:01:41.422 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DurationFieldType
+18:01:41.422 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DurationFieldType$StandardDurationFieldType
+18:01:41.422 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DurationFieldType$StandardDurationFieldType'.
+18:01:41.423 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DurationFieldType$StandardDurationFieldType
+18:01:41.424 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DurationFieldType$StandardDurationFieldType
+18:01:41.424 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DurationFieldType$StandardDurationFieldType
+18:01:41.425 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeFieldType
+18:01:41.425 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeFieldType'.
+18:01:41.425 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeFieldType
+18:01:41.425 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/DateTimeFieldType
+18:01:41.426 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeFieldType
+18:01:41.426 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeFieldType$StandardDateTimeFieldType
+18:01:41.426 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeFieldType$StandardDateTimeFieldType'.
+18:01:41.426 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeFieldType$StandardDateTimeFieldType
+18:01:41.426 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DateTimeFieldType$StandardDateTimeFieldType
+18:01:41.427 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeFieldType$StandardDateTimeFieldType
+18:01:41.427 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.AssembledChronology$Fields
+18:01:41.427 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.AssembledChronology$Fields'.
+18:01:41.427 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/AssembledChronology$Fields
+18:01:41.428 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/AssembledChronology$Fields
+18:01:41.428 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.AssembledChronology$Fields
+18:01:41.428 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField
+18:01:41.428 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField'.
+18:01:41.429 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/ImpreciseDateTimeField$LinkedDurationField
+18:01:41.429 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/ImpreciseDateTimeField$LinkedDurationField
+18:01:41.429 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField
+18:01:41.430 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.ScaledDurationField
+18:01:41.430 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.ScaledDurationField'.
+18:01:41.430 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/ScaledDurationField
+18:01:41.431 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/ScaledDurationField
+18:01:41.431 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.DecoratedDurationField
+18:01:41.431 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.DecoratedDurationField'.
+18:01:41.431 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/DecoratedDurationField
+18:01:41.432 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/DecoratedDurationField
+18:01:41.432 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.DecoratedDurationField
+18:01:41.432 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.ScaledDurationField
+18:01:41.433 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.BasicChronology$YearInfo
+18:01:41.433 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.BasicChronology$YearInfo'.
+18:01:41.434 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/BasicChronology$YearInfo
+18:01:41.434 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/BasicChronology$YearInfo
+18:01:41.434 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.BasicChronology$YearInfo
+18:01:41.434 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.ISOYearOfEraDateTimeField
+18:01:41.434 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.ISOYearOfEraDateTimeField'.
+18:01:41.434 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/ISOYearOfEraDateTimeField
+18:01:41.434 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/chrono/ISOYearOfEraDateTimeField
+18:01:41.435 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.ISOYearOfEraDateTimeField
+18:01:41.435 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder$Recurrence
+18:01:41.435 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder$Recurrence'.
+18:01:41.435 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder$Recurrence
+18:01:41.435 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DateTimeZoneBuilder$Recurrence
+18:01:41.436 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder$Recurrence
+18:01:41.436 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder$Transition
+18:01:41.436 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder$Transition'.
+18:01:41.436 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder$Transition
+18:01:41.437 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DateTimeZoneBuilder$Transition
+18:01:41.437 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder$Transition
+18:01:41.438 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder$Rule
+18:01:41.438 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder$Rule'.
+18:01:41.438 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder$Rule
+18:01:41.438 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DateTimeZoneBuilder$Rule
+18:01:41.438 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder$Rule
+18:01:41.439 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.FieldUtils
+18:01:41.439 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.FieldUtils'.
+18:01:41.439 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/FieldUtils
+18:01:41.441 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/FieldUtils
+18:01:41.441 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.FieldUtils
+18:01:41.442 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone
+18:01:41.442 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone'.
+18:01:41.443 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone
+18:01:41.445 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone
+18:01:41.445 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone
+18:01:41.446 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.BaseLocal
+18:01:41.446 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.BaseLocal'.
+18:01:41.447 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/BaseLocal
+18:01:41.447 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/BaseLocal
+18:01:41.447 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.joda.time.base, 1331420976
+18:01:41.447 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.AbstractPartial
+18:01:41.447 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.AbstractPartial'.
+18:01:41.447 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/AbstractPartial
+18:01:41.448 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/AbstractPartial
+18:01:41.448 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadablePartial
+18:01:41.448 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadablePartial'.
+18:01:41.449 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadablePartial
+18:01:41.449 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.AbstractPartial
+18:01:41.449 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.BaseLocal
+18:01:41.450 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.ZonedChronology$ZonedDateTimeField
+18:01:41.450 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.ZonedChronology$ZonedDateTimeField'.
+18:01:41.450 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/ZonedChronology$ZonedDateTimeField
+18:01:41.451 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/ZonedChronology$ZonedDateTimeField
+18:01:41.451 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.ZonedChronology$ZonedDateTimeField
+18:01:41.451 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.ZonedChronology$ZonedDurationField
+18:01:41.451 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.ZonedChronology$ZonedDurationField'.
+18:01:41.452 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/ZonedChronology$ZonedDurationField
+18:01:41.453 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/ZonedChronology$ZonedDurationField
+18:01:41.453 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.ZonedChronology$ZonedDurationField
+18:01:41.453 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.CachedDateTimeZone$Info
+18:01:41.454 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.CachedDateTimeZone$Info'.
+18:01:41.454 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/CachedDateTimeZone$Info
+18:01:41.454 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/CachedDateTimeZone$Info
+18:01:41.454 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.CachedDateTimeZone$Info
+18:01:41.455 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder$DSTZone
+18:01:41.455 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder$DSTZone'.
+18:01:41.455 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder$DSTZone
+18:01:41.455 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DateTimeZoneBuilder$DSTZone
+18:01:41.456 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder$DSTZone
+18:01:41.456 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder
+18:01:41.456 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder'.
+18:01:41.457 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder
+18:01:41.459 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DateTimeZoneBuilder
+18:01:41.459 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder
+18:01:41.459 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.CachedDateTimeZone
+18:01:41.459 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.CachedDateTimeZone'.
+18:01:41.459 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/CachedDateTimeZone
+18:01:41.460 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/tz/CachedDateTimeZone
+18:01:41.460 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.CachedDateTimeZone
+18:01:41.461 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.tz.DateTimeZoneBuilder$OfYear
+18:01:41.461 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.tz.DateTimeZoneBuilder$OfYear'.
+18:01:41.461 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/tz/DateTimeZoneBuilder$OfYear
+18:01:41.462 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/tz/DateTimeZoneBuilder$OfYear
+18:01:41.462 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.tz.DateTimeZoneBuilder$OfYear
+18:01:41.463 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeFormatter
+18:01:41.463 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeFormatter'.
+18:01:41.463 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeFormatter
+18:01:41.465 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeFormatter
+18:01:41.465 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.joda.time.format, -277269354
+18:01:41.465 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeFormatter
+18:01:41.466 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.LocalDateTime
+18:01:41.466 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.LocalDateTime'.
+18:01:41.466 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/LocalDateTime
+18:01:41.468 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/LocalDateTime
+18:01:41.468 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field YEAR
+18:01:41.468 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field MONTH_OF_YEAR
+18:01:41.468 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DAY_OF_MONTH
+18:01:41.468 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field MILLIS_OF_DAY
+18:01:41.469 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.LocalDateTime
+18:01:41.471 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.Instant
+18:01:41.471 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.Instant'.
+18:01:41.471 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/Instant
+18:01:41.471 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/Instant
+18:01:41.471 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.AbstractInstant
+18:01:41.471 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.AbstractInstant'.
+18:01:41.471 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/AbstractInstant
+18:01:41.472 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/AbstractInstant
+18:01:41.472 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.AbstractInstant
+18:01:41.473 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.Instant
+18:01:41.473 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTime
+18:01:41.473 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTime'.
+18:01:41.473 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTime
+18:01:41.474 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DateTime
+18:01:41.475 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadableDateTime
+18:01:41.475 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadableDateTime'.
+18:01:41.475 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadableDateTime
+18:01:41.475 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.BaseDateTime
+18:01:41.475 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.BaseDateTime'.
+18:01:41.475 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/BaseDateTime
+18:01:41.475 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/BaseDateTime
+18:01:41.476 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.AbstractDateTime
+18:01:41.476 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.AbstractDateTime'.
+18:01:41.476 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/AbstractDateTime
+18:01:41.477 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/AbstractDateTime
+18:01:41.477 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.AbstractDateTime
+18:01:41.477 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.BaseDateTime
+18:01:41.477 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTime
+18:01:41.477 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.Interval
+18:01:41.477 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.Interval'.
+18:01:41.477 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/Interval
+18:01:41.478 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/Interval
+18:01:41.478 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.BaseInterval
+18:01:41.478 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.BaseInterval'.
+18:01:41.478 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/BaseInterval
+18:01:41.479 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/BaseInterval
+18:01:41.479 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.AbstractInterval
+18:01:41.479 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.AbstractInterval'.
+18:01:41.479 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/AbstractInterval
+18:01:41.480 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/AbstractInterval
+18:01:41.480 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.AbstractInterval
+18:01:41.480 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.BaseInterval
+18:01:41.480 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.Interval
+18:01:41.480 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.MutableInterval
+18:01:41.480 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.MutableInterval'.
+18:01:41.480 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/MutableInterval
+18:01:41.481 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/MutableInterval
+18:01:41.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadWritableInterval
+18:01:41.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadWritableInterval'.
+18:01:41.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadWritableInterval
+18:01:41.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.MutableInterval
+18:01:41.481 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.Duration
+18:01:41.482 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.Duration'.
+18:01:41.482 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/Duration
+18:01:41.482 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/Duration
+18:01:41.482 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadableDuration
+18:01:41.482 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadableDuration'.
+18:01:41.483 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadableDuration
+18:01:41.483 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.BaseDuration
+18:01:41.483 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.BaseDuration'.
+18:01:41.484 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/BaseDuration
+18:01:41.484 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/BaseDuration
+18:01:41.484 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.AbstractDuration
+18:01:41.484 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.AbstractDuration'.
+18:01:41.484 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/AbstractDuration
+18:01:41.485 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/AbstractDuration
+18:01:41.485 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.AbstractDuration
+18:01:41.485 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.BaseDuration
+18:01:41.485 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.Duration
+18:01:41.485 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.Period
+18:01:41.485 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.Period'.
+18:01:41.485 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/Period
+18:01:41.487 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/Period
+18:01:41.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadablePeriod
+18:01:41.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadablePeriod'.
+18:01:41.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadablePeriod
+18:01:41.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.BasePeriod
+18:01:41.487 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.BasePeriod'.
+18:01:41.488 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/BasePeriod
+18:01:41.489 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/BasePeriod
+18:01:41.489 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.base.AbstractPeriod
+18:01:41.489 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.base.AbstractPeriod'.
+18:01:41.489 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/base/AbstractPeriod
+18:01:41.490 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/base/AbstractPeriod
+18:01:41.490 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.AbstractPeriod
+18:01:41.490 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.base.BasePeriod
+18:01:41.490 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.Period
+18:01:41.490 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.PeriodType
+18:01:41.490 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.PeriodType'.
+18:01:41.491 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/PeriodType
+18:01:41.492 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/PeriodType
+18:01:41.492 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.PeriodType
+18:01:41.493 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadWritableInstant
+18:01:41.493 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadWritableInstant'.
+18:01:41.493 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadWritableInstant
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimePrinter
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimePrinter'.
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimePrinter
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeParser
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeParser'.
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeParser
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.LocalDate
+18:01:41.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.LocalDate'.
+18:01:41.495 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/LocalDate
+18:01:41.497 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/LocalDate
+18:01:41.497 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.LocalDate
+18:01:41.497 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.LocalTime
+18:01:41.497 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.LocalTime'.
+18:01:41.497 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/LocalTime
+18:01:41.499 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/LocalTime
+18:01:41.500 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.LocalTime
+18:01:41.500 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.MutableDateTime
+18:01:41.500 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.MutableDateTime'.
+18:01:41.500 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/MutableDateTime
+18:01:41.501 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/MutableDateTime
+18:01:41.501 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROUND_NONE
+18:01:41.501 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROUND_FLOOR
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROUND_CEILING
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROUND_HALF_FLOOR
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROUND_HALF_CEILING
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROUND_HALF_EVEN
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.ReadWritableDateTime
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.ReadWritableDateTime'.
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.ReadWritableDateTime
+18:01:41.502 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.MutableDateTime
+18:01:41.503 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.LocalDateTime$Property
+18:01:41.503 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.LocalDateTime$Property'.
+18:01:41.503 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/LocalDateTime$Property
+18:01:41.503 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/LocalDateTime$Property
+18:01:41.503 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.AbstractReadableInstantFieldProperty
+18:01:41.503 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.AbstractReadableInstantFieldProperty'.
+18:01:41.504 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/AbstractReadableInstantFieldProperty
+18:01:41.505 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/AbstractReadableInstantFieldProperty
+18:01:41.505 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.AbstractReadableInstantFieldProperty
+18:01:41.505 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.LocalDateTime$Property
+.18:01:41.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeUtils$OffsetMillisProvider
+18:01:41.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeUtils$OffsetMillisProvider'.
+18:01:41.524 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeUtils$OffsetMillisProvider
+18:01:41.525 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DateTimeUtils$OffsetMillisProvider
+18:01:41.525 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeUtils$OffsetMillisProvider
+18:01:41.525 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.DateTimeUtils$FixedMillisProvider
+18:01:41.525 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.DateTimeUtils$FixedMillisProvider'.
+18:01:41.525 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/DateTimeUtils$FixedMillisProvider
+18:01:41.526 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/DateTimeUtils$FixedMillisProvider
+18:01:41.526 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.DateTimeUtils$FixedMillisProvider
+18:01:41.533 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.FormatUtils
+18:01:41.533 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.FormatUtils'.
+18:01:41.534 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/FormatUtils
+18:01:41.535 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/format/FormatUtils
+18:01:41.536 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.FormatUtils
+18:01:41.538 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeFormatterBuilder
+18:01:41.538 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeFormatterBuilder'.
+18:01:41.538 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeFormatterBuilder
+18:01:41.540 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeFormatterBuilder
+18:01:41.541 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeFormatterBuilder
+18:01:41.541 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset
+18:01:41.541 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset'.
+18:01:41.541 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeFormatterBuilder$TimeZoneOffset
+18:01:41.543 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeFormatterBuilder$TimeZoneOffset
+18:01:41.543 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset
+18:01:41.543 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeFormatterBuilder$MatchingParser
+18:01:41.543 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeFormatterBuilder$MatchingParser'.
+18:01:41.543 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeFormatterBuilder$MatchingParser
+18:01:41.544 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeFormatterBuilder$MatchingParser
+18:01:41.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeFormatterBuilder$MatchingParser
+18:01:41.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeFormatterBuilder$Composite
+18:01:41.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeFormatterBuilder$Composite'.
+18:01:41.544 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeFormatterBuilder$Composite
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeFormatterBuilder$Composite
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeFormatterBuilder$Composite
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName'.
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeFormatterBuilder$TimeZoneName
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeFormatterBuilder$TimeZoneName
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field LONG_NAME
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field SHORT_NAME
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ID
+18:01:41.545 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName
+18:01:41.546 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeParserBucket
+18:01:41.546 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeParserBucket'.
+18:01:41.546 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeParserBucket
+18:01:41.547 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeParserBucket
+18:01:41.547 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeParserBucket
+18:01:41.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.format.DateTimeParserBucket$SavedField
+18:01:41.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.format.DateTimeParserBucket$SavedField'.
+18:01:41.548 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/format/DateTimeParserBucket$SavedField
+18:01:41.549 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/format/DateTimeParserBucket$SavedField
+18:01:41.549 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.format.DateTimeParserBucket$SavedField
+18:01:41.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GJChronology
+18:01:41.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GJChronology'.
+18:01:41.551 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GJChronology
+18:01:41.552 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/chrono/GJChronology
+18:01:41.552 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GJChronology
+18:01:41.552 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GJChronology$CutoverField
+18:01:41.552 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GJChronology$CutoverField'.
+18:01:41.553 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GJChronology$CutoverField
+18:01:41.553 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/GJChronology$CutoverField
+18:01:41.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GJChronology$CutoverField
+18:01:41.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.GJChronology$ImpreciseCutoverField
+18:01:41.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.GJChronology$ImpreciseCutoverField'.
+18:01:41.554 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/GJChronology$ImpreciseCutoverField
+18:01:41.555 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/chrono/GJChronology$ImpreciseCutoverField
+18:01:41.555 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.GJChronology$ImpreciseCutoverField
+18:01:41.555 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.chrono.JulianChronology
+18:01:41.555 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.chrono.JulianChronology'.
+18:01:41.555 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/chrono/JulianChronology
+18:01:41.556 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/joda/time/chrono/JulianChronology
+18:01:41.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.chrono.JulianChronology
+18:01:41.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.DelegatedDateTimeField
+18:01:41.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.DelegatedDateTimeField'.
+18:01:41.557 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/DelegatedDateTimeField
+18:01:41.558 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/DelegatedDateTimeField
+18:01:41.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.DelegatedDateTimeField
+18:01:41.559 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.joda.time.field.SkipDateTimeField
+18:01:41.559 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.joda.time.field.SkipDateTimeField'.
+18:01:41.559 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/joda/time/field/SkipDateTimeField
+18:01:41.559 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/joda/time/field/SkipDateTimeField
+18:01:41.559 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.joda.time.field.SkipDateTimeField
+................................................................................................18:01:42.289 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+...................18:01:42.341 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+.....
+Time: 1.282
+
+OK (121 tests)
+

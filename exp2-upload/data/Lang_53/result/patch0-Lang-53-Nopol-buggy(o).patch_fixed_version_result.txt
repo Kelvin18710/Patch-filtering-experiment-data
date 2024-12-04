@@ -1,0 +1,65 @@
+JUnit version 4.13.2
+18:29:34.124 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.time.DateUtils_ESTest
+18:29:34.126 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.time.DateUtils_ESTest'.
+18:29:34.227 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.time.DateUtils_ESTest_scaffolding
+18:29:34.227 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.time.DateUtils_ESTest_scaffolding'.
+18:29:34.228 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.time.DateUtils_ESTest_scaffolding
+18:29:34.228 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.time.DateUtils_ESTest
+18:29:34.388 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:29:34.388 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:29:34.388 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:29:34.388 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:29:34.388 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+18:29:34.388 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:29:34.403 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.time.DateUtils
+18:29:34.403 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.time.DateUtils'.
+18:29:34.408 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang/time/DateUtils
+18:29:34.491 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang/time/DateUtils
+18:29:34.493 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.time.DateUtils
+18:29:34.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.time.DateUtils$DateIterator
+18:29:34.494 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.time.DateUtils$DateIterator'.
+18:29:34.494 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang/time/DateUtils$DateIterator
+18:29:34.495 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang/time/DateUtils$DateIterator
+18:29:34.495 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.time.DateUtils$DateIterator
+............................................................E.....................................E...................E.............E.........................................................E.................E....................................E........................................................................................................................................................................................................
+Time: 0.873
+There were 7 failures:
+1) test_0113(org.apache.commons.lang.time.DateUtils_ESTest)
+org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[-62043580800000,areFieldsSet=tru]e,areAllFieldsSet=tr...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang.time.DateUtils_ESTest.test_0113(DateUtils_ESTest.java:1396)
+2) test_0225(org.apache.commons.lang.time.DateUtils_ESTest)
+org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[-43479331200000,areFieldsSet=tru]e,areAllFieldsSet=tr...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang.time.DateUtils_ESTest.test_0225(DateUtils_ESTest.java:2720)
+3) test_0342(org.apache.commons.lang.time.DateUtils_ESTest)
+org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[1392409281000,areFieldsSet=tru]e,areAllFieldsSet=tr...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang.time.DateUtils_ESTest.test_0342(DateUtils_ESTest.java:4087)
+4) test_0337(org.apache.commons.lang.time.DateUtils_ESTest)
+org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[1392408000000,areFieldsSet=tru]e,areAllFieldsSet=tr...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang.time.DateUtils_ESTest.test_0337(DateUtils_ESTest.java:4049)
+5) test_0274(org.apache.commons.lang.time.DateUtils_ESTest)
+org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[-27859420800000,areFieldsSet=tru]e,areAllFieldsSet=tr...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang.time.DateUtils_ESTest.test_0274(DateUtils_ESTest.java:3325)
+6) test_0388(org.apache.commons.lang.time.DateUtils_ESTest)
+org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[1392508800000,areFieldsSet=tru]e,areAllFieldsSet=tr...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang.time.DateUtils_ESTest.test_0388(DateUtils_ESTest.java:4674)
+7) test_0387(org.apache.commons.lang.time.DateUtils_ESTest)
+org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[?,areFieldsSet=fals]e,areAllFieldsSet=tr...> but was:<...gorianCalendar[time=[-61433596800000,areFieldsSet=tru]e,areAllFieldsSet=tr...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang.time.DateUtils_ESTest.test_0387(DateUtils_ESTest.java:4666)
+
+FAILURES!!!
+Tests run: 439,  Failures: 7
+
