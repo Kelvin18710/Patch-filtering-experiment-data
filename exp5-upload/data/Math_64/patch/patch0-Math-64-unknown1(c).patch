@@ -1,0 +1,12 @@
+--- /src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ /src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -417,8 +417,8 @@
+                         double xK = diag[k] * point[k];
+                         xNorm    += xK * xK;
+                     }
++
+                     xNorm = Math.sqrt(xNorm);
+-
+                     // tests for convergence.
+                     // we use the vectorial convergence checker
+                 } else {

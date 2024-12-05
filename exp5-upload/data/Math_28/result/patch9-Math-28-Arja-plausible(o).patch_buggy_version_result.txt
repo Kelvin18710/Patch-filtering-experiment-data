@@ -1,0 +1,498 @@
+JUnit version 4.13.2
+17:47:39.200 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest
+17:47:39.202 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest'.
+17:47:39.270 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest_scaffolding
+17:47:39.270 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest_scaffolding'.
+17:47:39.273 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest_scaffolding
+17:47:39.273 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.SimplexSolver_ESTest
+17:47:39.273 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVector
+17:47:39.274 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVector'.
+17:47:39.278 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealVector
+17:47:39.361 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/RealVector
+17:47:39.362 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVector
+17:47:39.362 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.OpenMapRealVector
+17:47:39.362 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.OpenMapRealVector'.
+17:47:39.364 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/OpenMapRealVector
+17:47:39.369 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/OpenMapRealVector
+17:47:39.369 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_ZERO_TOLERANCE
+17:47:39.370 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.SparseRealVector
+17:47:39.370 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.SparseRealVector'.
+17:47:39.370 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/SparseRealVector
+17:47:39.371 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/SparseRealVector
+17:47:39.371 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.SparseRealVector
+17:47:39.371 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.OpenMapRealVector
+17:47:39.371 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.ArrayRealVector
+17:47:39.371 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.ArrayRealVector'.
+17:47:39.372 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/ArrayRealVector
+17:47:39.377 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/linear/ArrayRealVector
+17:47:39.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.ArrayRealVector
+17:47:39.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.UnivariateFunction
+17:47:39.380 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.UnivariateFunction'.
+17:47:39.381 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.UnivariateFunction
+17:47:39.512 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+17:47:39.512 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+17:47:39.512 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+17:47:39.512 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+17:47:39.512 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+17:47:39.512 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+17:47:39.521 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVector$2
+17:47:39.521 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVector$2'.
+17:47:39.521 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealVector$2
+17:47:39.523 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVector$2
+17:47:39.523 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.Localizable
+17:47:39.523 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.Localizable'.
+17:47:39.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.exception.util, -505269952
+17:47:39.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.Localizable
+17:47:39.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.OutOfRangeException
+17:47:39.524 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.OutOfRangeException'.
+17:47:39.524 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/OutOfRangeException
+17:47:39.525 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/OutOfRangeException
+17:47:39.525 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.exception, 1643916784
+17:47:39.525 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathIllegalNumberException
+17:47:39.525 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathIllegalNumberException'.
+17:47:39.525 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathIllegalNumberException
+17:47:39.525 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathIllegalNumberException
+17:47:39.526 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathIllegalArgumentException
+17:47:39.526 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathIllegalArgumentException'.
+17:47:39.526 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathIllegalArgumentException
+17:47:39.526 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathIllegalArgumentException
+17:47:39.526 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ExceptionContextProvider
+17:47:39.526 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ExceptionContextProvider'.
+17:47:39.527 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ExceptionContextProvider
+17:47:39.527 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathIllegalArgumentException
+17:47:39.527 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathIllegalNumberException
+17:47:39.527 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.OutOfRangeException
+17:47:39.527 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathArithmeticException
+17:47:39.527 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathArithmeticException'.
+17:47:39.528 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathArithmeticException
+17:47:39.528 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathArithmeticException
+17:47:39.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathArithmeticException
+17:47:39.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.OpenMapRealMatrix
+17:47:39.528 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.OpenMapRealMatrix'.
+17:47:39.529 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/OpenMapRealMatrix
+17:47:39.534 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/OpenMapRealMatrix
+17:47:39.535 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.SparseRealMatrix
+17:47:39.535 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.SparseRealMatrix'.
+17:47:39.535 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealMatrix
+17:47:39.535 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealMatrix'.
+17:47:39.536 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.AnyMatrix
+17:47:39.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.AnyMatrix'.
+17:47:39.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.AnyMatrix
+17:47:39.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealMatrix
+17:47:39.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.SparseRealMatrix
+17:47:39.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.AbstractRealMatrix
+17:47:39.537 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.AbstractRealMatrix'.
+17:47:39.538 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/AbstractRealMatrix
+17:47:39.542 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/linear/AbstractRealMatrix
+17:47:39.543 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealLinearOperator
+17:47:39.543 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealLinearOperator'.
+17:47:39.543 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealLinearOperator
+17:47:39.544 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/RealLinearOperator
+17:47:39.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealLinearOperator
+17:47:39.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.AbstractRealMatrix
+17:47:39.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.OpenMapRealMatrix
+17:47:39.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.Array2DRowRealMatrix
+17:47:39.544 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.Array2DRowRealMatrix'.
+17:47:39.544 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/Array2DRowRealMatrix
+17:47:39.546 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/Array2DRowRealMatrix
+17:47:39.546 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.Array2DRowRealMatrix
+17:47:39.547 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.BivariateFunction
+17:47:39.547 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.BivariateFunction'.
+17:47:39.547 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.BivariateFunction
+17:47:39.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.NumberIsTooSmallException
+17:47:39.548 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.NumberIsTooSmallException'.
+17:47:39.548 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/NumberIsTooSmallException
+17:47:39.549 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/NumberIsTooSmallException
+17:47:39.549 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.NumberIsTooSmallException
+17:47:39.549 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.DimensionMismatchException
+17:47:39.549 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.DimensionMismatchException'.
+17:47:39.549 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/DimensionMismatchException
+17:47:39.549 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/DimensionMismatchException
+17:47:39.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.DimensionMismatchException
+17:47:39.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathUnsupportedOperationException
+17:47:39.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathUnsupportedOperationException'.
+17:47:39.550 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathUnsupportedOperationException
+17:47:39.550 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathUnsupportedOperationException
+17:47:39.550 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathUnsupportedOperationException
+17:47:39.551 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.Precision
+17:47:39.551 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.Precision'.
+17:47:39.552 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/Precision
+17:47:39.552 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/util/Precision
+17:47:39.553 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.util, -2114137663
+17:47:39.553 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.Precision
+17:47:39.553 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVectorFormat
+17:47:39.553 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVectorFormat'.
+17:47:39.554 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealVectorFormat
+17:47:39.554 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/RealVectorFormat
+17:47:39.554 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_PREFIX
+17:47:39.554 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_SUFFIX
+17:47:39.554 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_SEPARATOR
+17:47:39.554 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVectorFormat
+17:47:39.555 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathParseException
+17:47:39.555 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathParseException'.
+17:47:39.555 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathParseException
+17:47:39.555 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathParseException
+17:47:39.555 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathIllegalStateException
+17:47:39.555 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathIllegalStateException'.
+17:47:39.556 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathIllegalStateException
+17:47:39.556 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathIllegalStateException
+17:47:39.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathIllegalStateException
+17:47:39.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathParseException
+17:47:39.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.FieldVector
+17:47:39.556 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.FieldVector'.
+17:47:39.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.FieldVector
+17:47:39.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.DifferentiableUnivariateFunction
+17:47:39.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.DifferentiableUnivariateFunction'.
+17:47:39.557 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.DifferentiableUnivariateFunction
+17:47:39.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.GoalType
+17:47:39.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.GoalType'.
+17:47:39.558 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/GoalType
+17:47:39.558 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/optimization/GoalType
+17:47:39.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.optimization, 1876706348
+17:47:39.558 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.GoalType
+17:47:39.559 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ArgUtils
+17:47:39.559 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ArgUtils'.
+17:47:39.559 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/ArgUtils
+17:47:39.560 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/util/ArgUtils
+17:47:39.560 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ArgUtils
+17:47:39.560 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.NotPositiveException
+17:47:39.560 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.NotPositiveException'.
+17:47:39.561 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/NotPositiveException
+17:47:39.561 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/NotPositiveException
+17:47:39.561 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.NotPositiveException
+17:47:39.561 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.FieldMatrix
+17:47:39.561 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.FieldMatrix'.
+17:47:39.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.FieldMatrix
+17:47:39.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.NullArgumentException
+17:47:39.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.NullArgumentException'.
+17:47:39.562 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/NullArgumentException
+17:47:39.563 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/NullArgumentException
+17:47:39.563 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.NullArgumentException
+17:47:39.563 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.NumberIsTooLargeException
+17:47:39.563 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.NumberIsTooLargeException'.
+17:47:39.563 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/NumberIsTooLargeException
+17:47:39.563 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/NumberIsTooLargeException
+17:47:39.563 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.NumberIsTooLargeException
+17:47:39.564 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.CompositeFormat
+17:47:39.564 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.CompositeFormat'.
+17:47:39.565 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/CompositeFormat
+17:47:39.565 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/CompositeFormat
+17:47:39.565 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.CompositeFormat
+17:47:39.566 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer
+17:47:39.566 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer'.
+17:47:39.566 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_MAX_ITERATIONS
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.LinearOptimizer
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.LinearOptimizer'.
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.LinearOptimizer
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MaxCountExceededException
+17:47:39.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MaxCountExceededException'.
+17:47:39.568 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MaxCountExceededException
+17:47:39.568 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MaxCountExceededException
+17:47:39.568 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MaxCountExceededException
+17:47:39.568 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.FunctionUtils$10
+17:47:39.568 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.FunctionUtils$10'.
+17:47:39.568 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/FunctionUtils$10
+17:47:39.569 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.FunctionUtils$10
+17:47:39.569 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealMatrixFormat
+17:47:39.569 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealMatrixFormat'.
+17:47:39.569 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealMatrixFormat
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/RealMatrixFormat
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_PREFIX
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_SUFFIX
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_ROW_PREFIX
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_ROW_SUFFIX
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_ROW_SEPARATOR
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_COLUMN_SEPARATOR
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealMatrixFormat
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.FunctionUtils
+17:47:39.570 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.FunctionUtils'.
+17:47:39.571 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/FunctionUtils
+17:47:39.571 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/FunctionUtils
+17:47:39.571 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.FunctionUtils
+17:47:39.571 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.NotStrictlyPositiveException
+17:47:39.571 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.NotStrictlyPositiveException'.
+17:47:39.572 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/NotStrictlyPositiveException
+17:47:39.572 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/NotStrictlyPositiveException
+17:47:39.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.NotStrictlyPositiveException
+17:47:39.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.MultivariateFunction
+17:47:39.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.MultivariateFunction'.
+17:47:39.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.MultivariateFunction
+17:47:39.572 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.Array2DRowFieldMatrix
+17:47:39.573 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.Array2DRowFieldMatrix'.
+17:47:39.573 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/Array2DRowFieldMatrix
+17:47:39.574 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/Array2DRowFieldMatrix
+17:47:39.574 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.AbstractFieldMatrix
+17:47:39.574 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.AbstractFieldMatrix'.
+17:47:39.575 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/AbstractFieldMatrix
+17:47:39.578 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/AbstractFieldMatrix
+17:47:39.578 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.AbstractFieldMatrix
+17:47:39.578 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.Array2DRowFieldMatrix
+17:47:39.578 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.NoDataException
+17:47:39.578 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.NoDataException'.
+17:47:39.578 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/NoDataException
+17:47:39.579 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/NoDataException
+17:47:39.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.NoDataException
+17:47:39.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.MatrixDimensionMismatchException
+17:47:39.579 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.MatrixDimensionMismatchException'.
+17:47:39.579 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/MatrixDimensionMismatchException
+17:47:39.579 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/MatrixDimensionMismatchException
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MultiDimensionMismatchException
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MultiDimensionMismatchException'.
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MultiDimensionMismatchException
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MultiDimensionMismatchException
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MultiDimensionMismatchException
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.MatrixDimensionMismatchException
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.NonSquareMatrixException
+17:47:39.580 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.NonSquareMatrixException'.
+17:47:39.581 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/NonSquareMatrixException
+17:47:39.581 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/NonSquareMatrixException
+17:47:39.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.NonSquareMatrixException
+17:47:39.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.FieldMatrixPreservingVisitor
+17:47:39.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.FieldMatrixPreservingVisitor'.
+17:47:39.581 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.FieldMatrixPreservingVisitor
+17:47:39.582 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.FieldMatrixChangingVisitor
+17:47:39.582 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.FieldMatrixChangingVisitor'.
+17:47:39.582 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.FieldMatrixChangingVisitor
+17:47:39.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.ZeroException
+17:47:39.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.ZeroException'.
+17:47:39.584 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/ZeroException
+17:47:39.584 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/ZeroException
+17:47:39.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.ZeroException
+17:47:39.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMath
+17:47:39.584 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMath'.
+17:47:39.585 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/FastMath
+17:47:39.589 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/util/FastMath
+17:47:39.591 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMath
+17:47:39.594 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction
+17:47:39.594 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.LinearObjectiveFunction'.
+17:47:39.594 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/LinearObjectiveFunction
+17:47:39.596 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/linear/LinearObjectiveFunction
+17:47:39.596 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction
+17:47:39.597 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVector$Entry
+17:47:39.597 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVector$Entry'.
+17:47:39.598 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealVector$Entry
+17:47:39.598 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/RealVector$Entry
+17:47:39.598 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVector$Entry
+17:47:39.599 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.PointValuePair
+17:47:39.599 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.PointValuePair'.
+17:47:39.600 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/PointValuePair
+17:47:39.600 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/PointValuePair
+17:47:39.600 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.Pair
+17:47:39.600 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.Pair'.
+17:47:39.600 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/Pair
+17:47:39.600 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/Pair
+17:47:39.601 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.Pair
+17:47:39.601 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.PointValuePair
+17:47:39.601 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.OpenMapRealVector$OpenMapEntry
+17:47:39.601 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.OpenMapRealVector$OpenMapEntry'.
+17:47:39.601 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/OpenMapRealVector$OpenMapEntry
+17:47:39.601 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/OpenMapRealVector$OpenMapEntry
+17:47:39.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.OpenMapRealVector$OpenMapEntry
+17:47:39.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealMatrixPreservingVisitor
+17:47:39.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealMatrixPreservingVisitor'.
+17:47:39.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealMatrixPreservingVisitor
+17:47:39.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.BlockRealMatrix
+17:47:39.602 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.BlockRealMatrix'.
+17:47:39.603 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/BlockRealMatrix
+17:47:39.613 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/BlockRealMatrix
+17:47:39.613 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field BLOCK_SIZE
+17:47:39.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.BlockRealMatrix
+17:47:39.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealMatrixChangingVisitor
+17:47:39.614 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealMatrixChangingVisitor'.
+17:47:39.615 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealMatrixChangingVisitor
+17:47:39.617 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.OpenIntToDoubleHashMap
+17:47:39.617 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.OpenIntToDoubleHashMap'.
+17:47:39.618 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/OpenIntToDoubleHashMap
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/OpenIntToDoubleHashMap
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field FREE
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field FULL
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field REMOVED
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field LOAD_FACTOR
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_EXPECTED_SIZE
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field RESIZE_MULTIPLIER
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field PERTURB_SHIFT
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.OpenIntToDoubleHashMap
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.UnboundedSolutionException
+17:47:39.619 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.UnboundedSolutionException'.
+17:47:39.620 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/UnboundedSolutionException
+17:47:39.620 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/linear/UnboundedSolutionException
+17:47:39.620 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.UnboundedSolutionException
+17:47:39.621 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.BlockFieldMatrix
+17:47:39.621 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.BlockFieldMatrix'.
+17:47:39.622 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/BlockFieldMatrix
+17:47:39.624 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/BlockFieldMatrix
+17:47:39.624 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field BLOCK_SIZE
+17:47:39.625 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.BlockFieldMatrix
+17:47:39.626 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException
+17:47:39.626 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException'.
+17:47:39.627 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException
+17:47:39.627 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException
+17:47:39.627 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException
+17:47:39.628 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.SimplexSolver
+17:47:39.628 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.SimplexSolver'.
+17:47:39.629 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/SimplexSolver
+17:47:39.629 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/linear/SimplexSolver
+17:47:39.629 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_EPSILON
+17:47:39.629 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_ULPS
+17:47:39.629 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.SimplexSolver
+17:47:39.630 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.MatrixUtils
+17:47:39.630 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.MatrixUtils'.
+17:47:39.630 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/MatrixUtils
+17:47:39.633 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/linear/MatrixUtils
+17:47:39.633 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.MatrixUtils
+17:47:39.634 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.OpenIntToDoubleHashMap$Iterator
+17:47:39.634 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.OpenIntToDoubleHashMap$Iterator'.
+17:47:39.634 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/OpenIntToDoubleHashMap$Iterator
+17:47:39.634 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/OpenIntToDoubleHashMap$Iterator
+17:47:39.635 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.OpenIntToDoubleHashMap$Iterator
+17:47:39.635 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Multiply
+17:47:39.635 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Multiply'.
+17:47:39.635 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Multiply
+17:47:39.635 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Multiply
+17:47:39.635 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.analysis.function, -2115381429
+17:47:39.636 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Multiply
+17:47:39.636 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.LinearConstraint
+17:47:39.636 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.LinearConstraint'.
+17:47:39.636 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/LinearConstraint
+17:47:39.636 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/linear/LinearConstraint
+17:47:39.637 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.LinearConstraint
+17:47:39.638 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.LocalizedFormats
+17:47:39.638 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.LocalizedFormats'.
+17:47:39.638 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/LocalizedFormats
+17:47:39.640 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/exception/util/LocalizedFormats
+17:47:39.642 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.LocalizedFormats
+17:47:39.646 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.Relationship
+17:47:39.646 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.Relationship'.
+17:47:39.647 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/Relationship
+17:47:39.647 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/optimization/linear/Relationship
+17:47:39.647 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.Relationship
+17:47:39.648 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.OpenMapRealVector$OpenMapSparseIterator
+17:47:39.648 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.OpenMapRealVector$OpenMapSparseIterator'.
+17:47:39.648 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/OpenMapRealVector$OpenMapSparseIterator
+17:47:39.648 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/OpenMapRealVector$OpenMapSparseIterator
+17:47:39.648 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.OpenMapRealVector$OpenMapSparseIterator
+17:47:39.649 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ExceptionContext
+17:47:39.649 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ExceptionContext'.
+17:47:39.649 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/ExceptionContext
+17:47:39.649 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/util/ExceptionContext
+17:47:39.650 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ExceptionContext
+17:47:39.651 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.optimization.linear.SimplexTableau
+17:47:39.651 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.optimization.linear.SimplexTableau'.
+17:47:39.652 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/optimization/linear/SimplexTableau
+17:47:39.653 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/optimization/linear/SimplexTableau
+17:47:39.653 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field NEGATIVE_VAR_COLUMN_LABEL
+17:47:39.653 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_ULPS
+17:47:39.653 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field CUTOFF_THRESHOLD
+17:47:39.653 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.optimization.linear.SimplexTableau
+17:47:39.654 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVectorChangingVisitor
+17:47:39.654 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVectorChangingVisitor'.
+17:47:39.654 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVectorChangingVisitor
+17:47:39.654 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVectorPreservingVisitor
+17:47:39.654 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVectorPreservingVisitor'.
+17:47:39.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVectorPreservingVisitor
+17:47:39.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.FieldElement
+17:47:39.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.FieldElement'.
+17:47:39.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3, -898793265
+17:47:39.656 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.FieldElement
+17:47:39.656 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.Field
+17:47:39.656 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.Field'.
+17:47:39.656 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.Field
+.17:47:39.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.OpenIntToDoubleHashMap$1
+17:47:39.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.OpenIntToDoubleHashMap$1'.
+17:47:39.672 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/OpenIntToDoubleHashMap$1
+17:47:39.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.OpenIntToDoubleHashMap$1
+17:47:39.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVector$SparseEntryIterator
+17:47:39.672 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVector$SparseEntryIterator'.
+17:47:39.673 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealVector$SparseEntryIterator
+17:47:39.673 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/linear/RealVector$SparseEntryIterator
+17:47:39.673 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVector$SparseEntryIterator
+17:47:39.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Divide
+17:47:39.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Divide'.
+17:47:39.674 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Divide
+17:47:39.674 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Divide
+17:47:39.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Divide
+17:47:39.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.linear.RealVector$1
+17:47:39.674 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.linear.RealVector$1'.
+17:47:39.675 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/linear/RealVector$1
+17:47:39.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.linear.RealVector$1
+17:47:39.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Ceil
+17:47:39.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Ceil'.
+17:47:39.675 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Ceil
+17:47:39.675 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Ceil
+17:47:39.675 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Ceil
+17:47:39.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Asin
+17:47:39.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Asin'.
+17:47:39.676 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Asin
+17:47:39.676 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Asin
+17:47:39.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Asin
+17:47:39.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Asin$1
+17:47:39.676 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Asin$1'.
+17:47:39.677 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Asin$1
+17:47:39.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Asin$1
+17:47:39.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Constant
+17:47:39.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Constant'.
+17:47:39.677 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Constant
+17:47:39.677 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Constant
+17:47:39.677 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Constant
+17:47:39.678 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathLiteralArrays
+17:47:39.678 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathLiteralArrays'.
+17:47:39.679 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/FastMathLiteralArrays
+17:47:39.679 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/util/FastMathLiteralArrays
+17:47:39.683 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathLiteralArrays
+17:47:39.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMath$lnMant
+17:47:39.690 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMath$lnMant'.
+17:47:39.690 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/FastMath$lnMant
+17:47:39.691 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/util/FastMath$lnMant
+17:47:39.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMath$lnMant
+17:47:39.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMath$CodyWaite
+17:47:39.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMath$CodyWaite'.
+17:47:39.691 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/FastMath$CodyWaite
+17:47:39.692 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/FastMath$CodyWaite
+17:47:39.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMath$CodyWaite
+17:47:39.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Log10
+17:47:39.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Log10'.
+17:47:39.692 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Log10
+17:47:39.692 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/analysis/function/Log10
+17:47:39.692 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Log10
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Log10$1
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Log10$1'.
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Log10$1
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Log10$1
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Floor
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Floor'.
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Floor
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Floor
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Floor
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Gaussian
+17:47:39.693 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Gaussian'.
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Gaussian
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Gaussian
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Gaussian
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Sinc
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Sinc'.
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Sinc
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Sinc
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field SHORTCUT
+17:47:39.694 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Sinc
+17:47:39.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Sinc$1
+17:47:39.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Sinc$1'.
+17:47:39.695 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Sinc$1
+17:47:39.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Sinc$1
+17:47:39.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Logit
+17:47:39.695 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Logit'.
+17:47:39.695 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Logit
+17:47:39.696 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Logit
+17:47:39.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Logit
+.................17:47:39.822 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.analysis.function.Log
+17:47:39.822 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.analysis.function.Log'.
+17:47:39.822 [Time-limited test] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/analysis/function/Log
+17:47:39.823 [Time-limited test] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/analysis/function/Log
+17:47:39.823 [Time-limited test] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.analysis.function.Log
+.............................................................
+Time: 0.568
+
+OK (79 tests)
+
