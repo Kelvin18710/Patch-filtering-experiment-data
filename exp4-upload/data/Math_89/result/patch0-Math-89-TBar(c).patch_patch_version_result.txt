@@ -1,0 +1,102 @@
+JUnit version 4.13.2
+00:05:57.586 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency_ESTest
+00:05:57.587 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency_ESTest'.
+00:05:57.689 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency_ESTest_scaffolding
+00:05:57.689 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency_ESTest_scaffolding'.
+00:05:57.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency_ESTest_scaffolding
+00:05:57.691 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency_ESTest
+00:05:57.846 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+00:05:57.846 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+00:05:57.846 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+00:05:57.846 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+00:05:57.846 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+00:05:57.846 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+00:05:57.863 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency$NaturalComparator
+00:05:57.863 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency$NaturalComparator'.
+00:05:57.866 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency$NaturalComparator
+00:05:57.938 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math/stat/Frequency$NaturalComparator
+00:05:57.939 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency$NaturalComparator
+00:05:57.939 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency
+00:05:57.939 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency'.
+00:05:57.940 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency
+00:05:57.945 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math/stat/Frequency
+00:05:57.945 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency
+.00:05:58.169 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math.stat.Frequency$1
+00:05:58.169 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math.stat.Frequency$1'.
+00:05:58.169 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math/stat/Frequency$1
+00:05:58.170 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math.stat.Frequency$1
+....E....................................E..........................E........................................E..........................E....................E.............E...........................E.................................E..........E..E.....................................E.E.......E.......E.....E..............................E...........
+Time: 0.992
+There were 17 failures:
+1) test_0233(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0233(Frequency_ESTest.java:2478)
+2) test_0330(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0330(Frequency_ESTest.java:3848)
+3) test_0207(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0207(Frequency_ESTest.java:2231)
+4) test_0022(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0022(Frequency_ESTest.java:265)
+5) test_0149(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0149(Frequency_ESTest.java:1624)
+6) test_0018(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0018(Frequency_ESTest.java:205)
+7) test_0258(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0258(Frequency_ESTest.java:2781)
+8) test_0248(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0248(Frequency_ESTest.java:2681)
+9) test_0183(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0183(Frequency_ESTest.java:1956)
+10) test_0069(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0069(Frequency_ESTest.java:741)
+11) test_0176(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0176(Frequency_ESTest.java:1879)
+12) test_0288(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0288(Frequency_ESTest.java:3266)
+13) test_0045(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0045(Frequency_ESTest.java:528)
+14) test_0281(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0281(Frequency_ESTest.java:3106)
+15) test_0280(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0280(Frequency_ESTest.java:3069)
+16) test_0289(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0289(Frequency_ESTest.java:3294)
+17) test_0093(org.apache.commons.math.stat.Frequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException: Illegal argument: v
+	at org.apache.commons.math.stat.Frequency.addValue(Frequency.java:113)
+	at org.apache.commons.math.stat.Frequency_ESTest.test_0093(Frequency_ESTest.java:1030)
+
+FAILURES!!!
+Tests run: 336,  Failures: 17
+
