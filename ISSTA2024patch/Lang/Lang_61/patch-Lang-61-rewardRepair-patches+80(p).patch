@@ -1,0 +1,11 @@
+--- ./origin/Lang_61\StrBuilder.java
++++ ./source/Lang_61\Lang_61_rewardRepair_patches+80\80.java
+@@ -1773,7 +1773,7 @@
+             return -1;
+         }
+         char[] thisBuf = buffer;
+-        int len = thisBuf.length - strLen;
++int  len  =  thisBuf.length  -  strLen;  outer:
+         outer:
+         for (int i = startIndex; i < len; i++) {
+             for (int j = 0; j < strLen; j++) {

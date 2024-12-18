@@ -1,0 +1,10 @@
+--- ./origin/Lang_21\DateUtils.java
++++ ./source/Lang_21\Lang_21_alphaRepair_patches+37\37.java
+@@ -263,6 +263,7 @@
+                 cal1.get(Calendar.SECOND) == cal2.get(Calendar.SECOND) &&
+                 cal1.get(Calendar.MINUTE) == cal2.get(Calendar.MINUTE) &&
+                 cal1.get(Calendar.HOUR) == cal2.get(Calendar.HOUR) &&
++                cal1.get(Calendar.MINUTE) == cal2.get(Calendar.SECOND) &&
+                 cal1.get(Calendar.DAY_OF_YEAR) == cal2.get(Calendar.DAY_OF_YEAR) &&
+                 cal1.get(Calendar.YEAR) == cal2.get(Calendar.YEAR) &&
+                 cal1.get(Calendar.ERA) == cal2.get(Calendar.ERA) &&

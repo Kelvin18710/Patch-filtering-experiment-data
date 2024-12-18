@@ -1,0 +1,11 @@
+--- ./origin/Math_105\SimpleRegression.java
++++ ./source/Math_105\Math_105_rewardRepair_patches+74\74.java
+@@ -261,7 +261,7 @@
+      * @return sum of squared errors associated with the regression model
+      */
+     public double getSumSquaredErrors() {
+-        return sumYY - sumXY * sumXY / sumXX;
++return  sumYY  -  sumXY  *  sumXY  /  sumYY;
+     }
+
+     /**

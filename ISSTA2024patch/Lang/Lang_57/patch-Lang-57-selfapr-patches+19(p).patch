@@ -1,0 +1,11 @@
+--- ./origin/Lang_57\LocaleUtils.java
++++ ./source/Lang_57\Lang_57_selfapr_patches+19\19.java
+@@ -220,7 +220,7 @@
+      * @return true if the locale is a known locale
+      */
+     public static boolean isAvailableLocale(Locale locale) {
+-        return cAvailableLocaleSet.contains(locale);
++return  locale!=  null  &&  cAvailableLocaleSet.contains(locale);
+     }
+
+     //-----------------------------------------------------------------------

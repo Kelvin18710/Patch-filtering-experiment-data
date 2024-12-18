@@ -1,0 +1,11 @@
+--- ./origin/Math_75\Frequency.java
++++ ./source/Math_75\Math_75_simfix_patches+19\19.java
+@@ -300,7 +300,7 @@
+      */
+     @Deprecated
+     public double getPct(Object v) {
+-        return getCumPct((Comparable<?>) v);
++return getL1Distance(v.data);
+     }
+
+     /**

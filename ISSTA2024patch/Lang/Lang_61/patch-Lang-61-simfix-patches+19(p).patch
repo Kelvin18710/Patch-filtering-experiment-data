@@ -1,0 +1,33 @@
+--- ./origin/Lang_61\StrBuilder.java
++++ ./source/Lang_61\Lang_61_simfix_patches+19\19.java
+@@ -1772,17 +1772,20 @@
+         if (strLen > size) {
+             return -1;
+         }
+-        char[] thisBuf = buffer;
+-        int len = thisBuf.length - strLen;
+-        outer:
+-        for (int i = startIndex; i < len; i++) {
+-            for (int j = 0; j < strLen; j++) {
+-                if (str.charAt(j) != thisBuf[i + j]) {
+-                    continue outer;
+-                }
+-            }
+-            return i;
+-        }
++if(size==0){
++return this;
++}
++char[] thisBuf=buffer;
++int len=thisBuf.length-strLen;
++outer: for (int i=startIndex; i < len; i++) {
++  for (int j=0; j < strLen; j++) {
++    if (str.charAt(j) != thisBuf[i + j]) {
++      continue outer;
++    }
++  }
++  return i;
++}
++
+         return -1;
+     }

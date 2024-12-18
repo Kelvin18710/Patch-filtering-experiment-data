@@ -1,0 +1,14 @@
+--- ./origin/Math_63\MathUtils.java
++++ ./source/Math_63\Math_63_simfix_patches+18\18.java
+@@ -414,7 +414,10 @@
+      * @return {@code true} if the values are equal.
+      */
+     public static boolean equals(double x, double y) {
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++if(y==x){
++return y;
++}
++return (Double.isNaN(x)&&Double.isNaN(y))||x==y;
+     }
+
+     /**

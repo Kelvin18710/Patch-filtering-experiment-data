@@ -1,0 +1,14 @@
+--- ./origin/Lang_57\LocaleUtils.java
++++ ./source/Lang_57\Lang_57_recoder_patches+43\43.java
+@@ -219,9 +219,8 @@
+      * @param locale the Locale object to check if it is available
+      * @return true if the locale is a known locale
+      */
+-    public static boolean isAvailableLocale(Locale locale) {
+-        return cAvailableLocaleSet.contains(locale);
+-    }
++public static boolean isAvailableLocale(Locale locale) {
++return locale.contains(locale);    }
+
+     //-----------------------------------------------------------------------
+     /**

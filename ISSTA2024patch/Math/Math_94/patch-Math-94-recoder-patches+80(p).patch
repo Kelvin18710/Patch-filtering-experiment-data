@@ -1,0 +1,13 @@
+--- ./origin/Math_94\MathUtils.java
++++ ./source/Math_94\Math_94_recoder_patches+80\80.java
+@@ -408,8 +408,8 @@
+      * @return the greatest common divisor, never zero
+      * @since 1.1
+      */
+-    public static int gcd(int u, int v) {
+-        if (u * v == 0) {
++public static int gcd(int u, int v) {
++if(((u == u) || (v == 0))){
+             return (Math.abs(u) + Math.abs(v));
+         }
+         // keep u and v negative, as negative integers range down to

@@ -1,0 +1,14 @@
+--- ./origin/Math_2\HypergeometricDistribution.java
++++ ./source/Math_2\Math_2_recoder_patches+43\43.java
+@@ -264,9 +264,8 @@
+      * For population size {@code N}, number of successes {@code m}, and sample
+      * size {@code n}, the mean is {@code n * m / N}.
+      */
+-    public double getNumericalMean() {
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
+-    }
++public double getNumericalMean() {
++return (getSampleSize() * getNumberOfSuccesses());    }
+
+     /**
+      * {@inheritDoc}

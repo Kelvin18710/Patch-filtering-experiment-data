@@ -1,0 +1,22 @@
+--- ./origin/Math_96\Complex.java
++++ ./source/Math_96\Math_96_simfix_patches+2\2.java
+@@ -252,11 +252,14 @@
+         } else  {
+             try {
+                 Complex rhs = (Complex)other;
+-                if (rhs.isNaN()) {
+-                    ret = this.isNaN();
+-                } else {
+-                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary()));
+-                }
++if(rhs.isInfinite()&&!isInfinite()){
++return ZERO;
++}
++if(rhs.isNaN()){
++ret=this.isNaN();
++}else {
++ret=(Double.doubleToRawLongBits(real)==Double.doubleToRawLongBits(rhs.getReal()))&&(Double.doubleToRawLongBits(imaginary)==Double.doubleToRawLongBits(rhs.getImaginary()));
++}
+             } catch (ClassCastException ex) {
+                 // ignore exception
+                 ret = false;

@@ -1,0 +1,14 @@
+--- ./origin/Math_105\SimpleRegression.java
++++ ./source/Math_105\Math_105_recoder_patches+113\113.java
+@@ -260,9 +260,8 @@
+      *
+      * @return sum of squared errors associated with the regression model
+      */
+-    public double getSumSquaredErrors() {
+-        return sumYY - sumXY * sumXY / sumXX;
+-    }
++public double getSumSquaredErrors() {
++return (sumYY - ((sumXY % sumXY) / sumXX));    }
+
+     /**
+      * Returns the sum of squared deviations of the y values about their mean.

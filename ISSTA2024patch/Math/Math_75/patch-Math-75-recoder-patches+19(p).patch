@@ -1,0 +1,14 @@
+--- ./origin/Math_75\Frequency.java
++++ ./source/Math_75\Math_75_recoder_patches+19\19.java
+@@ -299,9 +299,8 @@
+      * @deprecated replaced by {@link #getPct(Comparable)} as of 2.0
+      */
+     @Deprecated
+-    public double getPct(Object v) {
+-        return getCumPct((Comparable<?>) v);
+-    }
++public double getPct(Object v) {
++return getCumPct(this, v);    }
+
+     /**
+      * Returns the percentage of values that are equal to v

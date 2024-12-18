@@ -1,0 +1,11 @@
+--- ./origin/Lang_57\LocaleUtils.java
++++ ./source/Lang_57\Lang_57_alphaRepair_patches+17\17.java
+@@ -220,7 +220,7 @@
+      * @return true if the locale is a known locale
+      */
+     public static boolean isAvailableLocale(Locale locale) {
+-        return cAvailableLocaleSet.contains(locale);
++                return localizationList().contains(locale);
+     }
+
+     //-----------------------------------------------------------------------

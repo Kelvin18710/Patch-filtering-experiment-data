@@ -1,0 +1,11 @@
+--- ./origin/Math_2\HypergeometricDistribution.java
++++ ./source/Math_2\Math_2_alphaRepair_patches+2\2.java
+@@ -265,7 +265,7 @@
+      * size {@code n}, the mean is {@code n * m / N}.
+      */
+     public double getNumericalMean() {
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++                return numericalMean / getNumExamples();
+     }
+
+     /**

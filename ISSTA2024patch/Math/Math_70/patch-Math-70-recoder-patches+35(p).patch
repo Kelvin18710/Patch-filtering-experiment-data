@@ -1,0 +1,15 @@
+--- ./origin/Math_70\BisectionSolver.java
++++ ./source/Math_70\Math_70_recoder_patches+35\35.java
+@@ -67,10 +67,9 @@
+     }
+
+     /** {@inheritDoc} */
+-    public double solve(final UnivariateRealFunction f, double min, double max, double initial)
++public double solve(final UnivariateRealFunction f, double min, double max, double initial)
+         throws MaxIterationsExceededException, FunctionEvaluationException {
+-        return solve(min, max);
+-    }
++return solve(f, max, true);    }
+
+     /** {@inheritDoc} */
+     public double solve(final UnivariateRealFunction f, double min, double max)

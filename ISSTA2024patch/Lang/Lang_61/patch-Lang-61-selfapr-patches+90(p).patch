@@ -1,0 +1,11 @@
+--- ./origin/Lang_61\StrBuilder.java
++++ ./source/Lang_61\Lang_61_selfapr_patches+90\90.java
+@@ -1773,7 +1773,7 @@
+             return -1;
+         }
+         char[] thisBuf = buffer;
+-        int len = thisBuf.length - strLen;
++int  len  =  thisBuf.length  -  strLen  ||(thisBuf!=  null  &&!thisBuf.length  >  0)?  thisBuf.length  :  0;
+         outer:
+         for (int i = startIndex; i < len; i++) {
+             for (int j = 0; j < strLen; j++) {

@@ -1,0 +1,14 @@
+--- ./origin/Math_63\MathUtils.java
++++ ./source/Math_63\Math_63_recoder_patches+10\10.java
+@@ -413,9 +413,8 @@
+      * @param y second value
+      * @return {@code true} if the values are equal.
+      */
+-    public static boolean equals(double x, double y) {
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
+-    }
++public static boolean equals(double x, double y) {
++return (x == y);    }
+
+     /**
+      * Returns true if both arguments are NaN or neither is NaN and they are

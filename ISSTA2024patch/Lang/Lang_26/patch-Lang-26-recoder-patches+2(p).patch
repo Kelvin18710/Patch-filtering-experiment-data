@@ -1,0 +1,13 @@
+--- ./origin/Lang_26\FastDateFormat.java
++++ ./source/Lang_26\Lang_26_recoder_patches+2\2.java
+@@ -816,8 +816,8 @@
+      * @param date  the date to format
+      * @return the formatted string
+      */
+-    public String format(Date date) {
+-        Calendar c = new GregorianCalendar(mTimeZone);
++public String format(Date date) {
++Calendar c = new GregorianCalendar(getTimeZone().mTimeZone);
+         c.setTime(date);
+         return applyRules(c, new StringBuffer(mMaxLengthEstimate)).toString();
+     }

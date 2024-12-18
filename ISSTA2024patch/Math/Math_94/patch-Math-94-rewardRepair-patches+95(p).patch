@@ -1,0 +1,11 @@
+--- ./origin/Math_94\MathUtils.java
++++ ./source/Math_94\Math_94_rewardRepair_patches+95\95.java
+@@ -409,7 +409,7 @@
+      * @since 1.1
+      */
+     public static int gcd(int u, int v) {
+-        if (u * v == 0) {
++if  (w  *  v  ==  0)  {
+             return (Math.abs(u) + Math.abs(v));
+         }
+         // keep u and v negative, as negative integers range down to
